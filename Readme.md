@@ -1,14 +1,14 @@
 # User Management System
 
-# To run the project 
+To run the project 
 
-# create .env file and include 
+create .env file and include 
 
 PORT=3000
 MONGODB_URI='mongodb+srv://adhikaribikash821:kkYwqjw26Y8SBY9f@cluster0.r3yzzfx.mongodb.net/ums'
 SECRET_KEY='paradise"
 
-# Next follow the steps:
+ Next follow the steps:
 
 # step1: npm install
 
@@ -16,11 +16,11 @@ SECRET_KEY='paradise"
 
 # --------------------------------------------------------------------------------------------------- #
 
-# Open postman to test the api's
+Open postman to test the api's
 
-# Postman Documentation url: https://documenter.getpostman.com/view/16111145/2s93sjWA9y
+ Postman Documentation url: https://documenter.getpostman.com/view/16111145/2s93sjWA9y
 
-# Note: 
+Note: 
 
 1. Super Admin can register themselves.
 
@@ -63,4 +63,5 @@ Change-Status - Either Admin or Super Admin can change the role of the status.
 ![Screenshot from 2023-06-20 13-49-09](https://github.com/Bikash01293/User-Management-System/assets/48493235/0d31d759-c08e-45f1-a146-d5a980175f1b)
 
 User- login to check the status
+![Screenshot from 2023-06-20 14-20-49](https://github.com/Bikash01293/User-Management-System/assets/48493235/1a516bdc-4b96-4859-a17f-8bcce2931c27)
 
