@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 
+//Defining the user schema
 const userSchema = new mongoose.Schema(
   {
     email: { type: String, unique: true },

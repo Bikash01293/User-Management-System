@@ -2,6 +2,7 @@ const bcrypt = require('bcrypt');
 const User = require('../models/user');
 const { generateAccessToken } = require('../utils/auth');
 
+//Register for Super Admin
 exports.register = async (req, res) => {
   try {
     const { email, password, role, status } = req.body;
@@ -17,6 +18,7 @@ exports.register = async (req, res) => {
   }
 };
 
+//Login to generate token and use it for authorization
 exports.login = async (req, res) => {
   try {
     const { email, password } = req.body;

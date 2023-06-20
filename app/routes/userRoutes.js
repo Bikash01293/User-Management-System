@@ -3,6 +3,7 @@ const router = express.Router();
 const userController = require('../controllers/userContoller');
 const { authenticateRole } = require('../utils/auth');
 
+//Routers of the user
 router.get('/', authenticateRole(['Super Admin']), userController.getAllUsers);
 router.get('/:id', authenticateRole(['Super Admin', 'Admin']), userController.getUserById);
 router.post('/', authenticateRole(['Super Admin', 'Admin']), userController.createUser);

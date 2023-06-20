@@ -1,6 +1,7 @@
 const jwt = require('jsonwebtoken');
 require('dotenv').config();
 
+//Authentication middleware
 exports.authenticateRole = (roles) => (req, res, next) => {
   const { role } = req.user;
   if (roles.includes(role)) {
@@ -10,6 +11,7 @@ exports.authenticateRole = (roles) => (req, res, next) => {
   }
 };
 
+//Generating the jwt token
 exports.generateAccessToken = (user) => {
   const payload = {
     id: user._id,

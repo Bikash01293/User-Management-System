@@ -2,6 +2,7 @@ const bcrypt = require('bcrypt');
 const userService = require('../services/userService');
 const User = require('../models/user');
 
+//Get all users
 exports.getAllUsers = async (req, res) => {
   try {
     const users = await userService.getAllUsers();
@@ -11,6 +12,7 @@ exports.getAllUsers = async (req, res) => {
   }
 };
 
+//Get a single user by id
 exports.getUserById = async (req, res) => {
   try {
     const { id } = req.params;
@@ -25,6 +27,7 @@ exports.getUserById = async (req, res) => {
   }
 };
 
+//Create a new user
 exports.createUser = async (req, res) => {
   try {
     const { email, password, role, status } = req.body;
@@ -40,6 +43,7 @@ exports.createUser = async (req, res) => {
   }
 };
 
+//Update the role of the user
 exports.updateUserRole = async (req, res) => {
   try {
     const { id } = req.params;
@@ -55,6 +59,7 @@ exports.updateUserRole = async (req, res) => {
   }
 };
 
+//Update the status of the user
 exports.updateUserStatus = async (req, res) => {
   try {
     const { id } = req.params;
