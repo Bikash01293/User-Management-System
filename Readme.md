@@ -45,3 +45,17 @@ Create User
 
 ![Screenshot from 2023-06-20 13-43-12](https://github.com/Bikash01293/User-Management-System/assets/48493235/1a3663fc-5c9b-4d0e-acff-52b15651d535)
 
+Get-All-User
+![Screenshot from 2023-06-20 13-43-35](https://github.com/Bikash01293/User-Management-System/assets/48493235/8bb00cfa-ad82-4831-aa4c-7d033ec32331)
+
+Get-User-By-Id
+![Screenshot from 2023-06-20 13-44-43](https://github.com/Bikash01293/User-Management-System/assets/48493235/b45dd192-8b44-486e-a10f-3ad5fd5bb7bf)
+
+Change-Role
+![Screenshot from 2023-06-20 13-47-04](https://github.com/Bikash01293/User-Management-System/assets/48493235/0eee5e4a-f18b-40d6-ad40-3911eed982fc)
+
+![Screenshot from 2023-06-20 13-48-02](https://github.com/Bikash01293/User-Management-System/assets/48493235/11b45ed1-8903-4cf2-a689-57d3558ba713)
+
+Change-Status
+![Screenshot from 2023-06-20 13-49-09](https://github.com/Bikash01293/User-Management-System/assets/48493235/0d31d759-c08e-45f1-a146-d5a980175f1b)
+
